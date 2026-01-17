@@ -1,0 +1,73 @@
+# ABANG COLEK MOBILE APP - Complete File List
+
+## Core Configuration
+- package.json
+- app.config.ts
+- tsconfig.json
+- tailwind.config.js
+- theme.config.js
+- drizzle.config.ts
+- babel.config.js
+
+## App Screens (app/)
+- app/_layout.tsx
+- app/(tabs)/_layout.tsx
+- app/(tabs)/index.tsx (Dashboard)
+- app/(tabs)/events.tsx
+- app/(tabs)/tiktok.tsx (Hook Library)
+- app/(tabs)/more.tsx
+- app/(tabs)/lucky-draw.tsx
+- app/(tabs)/whatsapp-bot.tsx
+- app/jingle-lyrics.tsx
+- app/oauth/callback.tsx
+
+## Components
+- components/screen-container.tsx
+- components/themed-view.tsx
+- components/jingle-player.tsx
+- components/ui/icon-symbol.tsx
+- components/haptic-tab.tsx
+
+## Library Files
+- lib/types.ts
+- lib/storage.ts
+- lib/preset-data.ts
+- lib/jingle-lyrics.ts
+- lib/utils.ts
+- lib/trpc.ts
+- lib/whatsapp-bot-types.ts
+- lib/whatsapp-templates.ts
+
+## Hooks
+- hooks/use-auth.ts
+- hooks/use-colors.ts
+- hooks/use-color-scheme.ts
+
+## Server (Backend)
+- server/db.ts
+- server/routers.ts
+- server/storage.ts
+- server/wocs-db.ts
+- server/wocs-schema.sql
+- server/README.md
+
+## Database Schema
+- drizzle/schema.ts (includes WOCS tables)
+- drizzle/relations.ts
+- drizzle/0000_elite_eternals.sql
+- drizzle/0001_fantastic_jetstream.sql (WOCS migration)
+
+## Assets
+- assets/images/icon.png
+- assets/images/splash-icon.png
+- assets/images/favicon.png
+- assets/images/abang-colek-logo.png
+- assets/audio/abang-colek-jingle.mp3
+
+## Documentation
+- todo.md
+- design.md
+- tiktok-brand-analysis.md
+- tiktok-content-analysis.md
+
+Total: 117 files (excluding node_modules, .git, dist)
