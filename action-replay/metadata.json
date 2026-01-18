@@ -1,0 +1,5 @@
+{
+  "name": "Action Replay",
+  "description": "Compare Gemini 3 Flash generation speeds against other models.",
+  "requestFramePermissions": []
+}

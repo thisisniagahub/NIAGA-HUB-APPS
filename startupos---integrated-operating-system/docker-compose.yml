@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Frontend Application (React served via Nginx)
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - VITE_API_URL=http://localhost:3000
+    depends_on:
+      - db
+    networks:
+      - startupos-net
+
+  # Backend API (Node.js/Express - mocked location for scaffold)
+  # In a real scenario, this would point to your api/ folder Dockerfile
+  api:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: npm run start:api
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/startupos
+      - JWT_SECRET=dev_secret_key
+    depends_on:
+      - db
+    networks:
+      - startupos-net
+
+  # Database
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: startupos
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - startupos-net
+
+volumes:
+  postgres_data:
+
+networks:
+  startupos-net:
+    driver: bridge

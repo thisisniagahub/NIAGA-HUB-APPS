@@ -1,0 +1,10 @@
+
+{
+  "name": "StartupOS - Integrated Operating System",
+  "description": "A comprehensive, 17-module operating system for startups. From ideation to exit, powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

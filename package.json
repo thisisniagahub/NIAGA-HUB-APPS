@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "pnpm -r test"
+    },
+    "devDependencies": {
+        "vitest": "^4.0.17"
+    }
+}

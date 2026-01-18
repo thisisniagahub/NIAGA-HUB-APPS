@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Content Marketing Agent",
+  "description": "An AI-powered agent to help with all your content marketing needs, from video generation and analysis to real-time conversational AI, content generation, and audio transcription.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
