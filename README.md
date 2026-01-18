@@ -134,18 +134,70 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ```
 NIAGA-HUB-APPS/
-├── abang-colek-brand-os/     # 🏪 Main NIAGAHUB Platform
-├── abang-colek-kiosk/        # 🎮 Kiosk/POS interface
-├── abang-colek-mobile/       # 📱 Mobile app (Expo)
-├── wocs-server/              # ⚙️ WhatsApp backend
-├── abang-colek-wocs-extension/ # 🔌 Chrome extension
-├── infogenius/               # 🖼️ Infographic generator
-├── gemini-os/                # 💻 OS-style AI interface
-├── ... (40+ more projects)
-├── ARCHITECTURE_DIAGRAM.md   # 📐 System architecture
-├── PROJECT_REVIEW.md         # 📋 Project documentation
-├── pnpm-workspace.yaml       # 📦 Workspace config
-└── package.json              # 📄 Root package
+│
+├── 🏪 CORE PLATFORM
+│   ├── abang-colek-brand-os/          # NIAGAHUB Platform - Multi-tenant F&B SaaS
+│   ├── abang-colek-kiosk/             # Kiosk/POS display interface
+│   ├── abang-colek-mobile/            # Mobile companion app (Expo)
+│   ├── wocs-server/                   # WhatsApp Order Connector backend
+│   └── abang-colek-wocs-extension/    # Chrome extension for WhatsApp Web
+│
+├── 🤖 GEMINI AI EXPERIMENTS
+│   ├── infogenius/                    # AI infographic generator
+│   ├── gemini-content-marketing-agent/ # Content marketing automation
+│   ├── gemini-os/                     # OS-style AI interface
+│   ├── function-call-kitchen/         # Function calling sandbox
+│   ├── chat-with-docs/                # Document Q&A
+│   ├── chat-with-maps-live/           # Interactive maps with AI
+│   ├── data-resolver/                 # AI data transformation
+│   ├── proactive-co-creator/          # Proactive AI assistant
+│   ├── thinking-space/                # Structured thinking with AI
+│   ├── visual-computer/               # Visual computing experiments
+│   ├── ask-the-manual/                # Manual/documentation Q&A
+│   └── native-audio-function-call-sandbox/ # Audio function calling
+│
+├── 🎨 CREATIVE TOOLS
+│   ├── home-canvas/                   # Interior design visualization
+│   ├── product-mockup-visualization/  # Product mockup generator
+│   ├── fit-check/                     # Fashion/outfit AI assistant
+│   ├── veo-3-gallery/                 # Video generation gallery
+│   ├── veo-cameos/                    # AI video cameos
+│   ├── audio-avatars/                 # Audio-driven avatars
+│   ├── enhance!/                      # Image enhancement tool
+│   ├── link-2-ink/                    # URL to document converter
+│   └── flash-ui/                      # Rapid UI prototyping
+│
+├── 📚 EDUCATIONAL & UTILITY
+│   ├── flashcard-maker/               # AI flashcard generator
+│   ├── video-to-learning-app/         # Video to learning content
+│   ├── research-visualization/        # Research data visualization
+│   └── niaga-hub_bring-any-idea-to-life/ # Idea-to-prototype tool
+│
+├── 🚀 EXPERIMENTAL
+│   ├── startupos---integrated-operating-system/ # Startup management OS
+│   ├── action-replay/                 # Action recording & replay
+│   ├── echopaths/                     # Audio path visualization
+│   ├── kinetic-shapes/                # Interactive shape animations
+│   ├── sky-metropolis/                # 3D city visualization
+│   ├── spinnerevolve/                 # Loading animation library
+│   ├── synergy-intro/                 # Team intro generator
+│   ├── robotics-spatial-understanding/ # Robotics spatial AI
+│   ├── mcp-maps-3d/                   # 3D maps with MCP
+│   └── sample-image/                  # Image sample utilities
+│
+├── 📂 OTHER
+│   └── WAWCD/                         # WhatsApp Web utilities
+│
+├── 📄 ROOT FILES
+│   ├── README.md                      # This file
+│   ├── ARCHITECTURE_DIAGRAM.md        # System architecture
+│   ├── PROJECT_REVIEW.md              # Comprehensive project review
+│   ├── REPOS.md                       # Repository documentation
+│   ├── package.json                   # Root package config
+│   ├── pnpm-workspace.yaml            # Workspace configuration
+│   └── metadata.json                  # Monorepo metadata
+│
+└── � Total: 44 projects
 ```
 
 ---
